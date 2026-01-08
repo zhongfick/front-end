@@ -1,0 +1,48 @@
+{
+  "name": "pawprint-diaries",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:h5": "vue-cli-service uni-serve --mode h5",
+    "build:h5": "vue-cli-service uni-build --mode h5"
+  },
+  "author": "qin",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@dcloudio/uni-h5": "^2.0.2-4020420240722004",
+    "@dcloudio/uni-ui": "^1.5.7",
+    "@qiun/vue-ucharts": "^2.5.0-20230101",
+    "@qiun/wx-ucharts": "^2.5.0-20230101",
+    "axios": "^1.7.7",
+    "jweixin-module": "^1.6.0",
+    "jwt-decode": "^4.0.0",
+    "pawprint-diaries": "file:",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^4.1.3",
+    "qrcode": "^1.5.4",
+    "unplugin-vue-components": "^0.27.4",
+    "uview-ui": "^2.0.37",
+    "vue": "^3.4.21",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.4.1",
+    "@dcloudio/uni-cli-i18n": "^2.0.2-4020420240722004",
+    "@dcloudio/uni-cli-shared": "^2.0.2-4020420240722004",
+    "@dcloudio/uni-helper-json": "^1.0.13",
+    "@dcloudio/uni-migration": "^2.0.2-4020420240722004",
+    "@dcloudio/uni-template-compiler": "^2.0.2-4020420240722004",
+    "@dcloudio/vue-cli-plugin-uni": "^2.0.2-4020420240722004",
+    "@dcloudio/webpack-uni-pages-loader": "^2.0.2-4020420240722004",
+    "@pinia/nuxt": "^0.9.0",
+    "@types/node": "^20.11.24",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/runtime-core": "^3.4.21",
+    "@vue/tsconfig": "^0.5.1",
+    "typescript": "^5.3.3",
+    "unplugin-auto-import": "^0.18.3"
+  }
+}
